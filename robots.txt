@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.math.uwaterloo.ca/~fromshoo//sitemap.xml
+Sitemap: https://romshoo.github.io/sitemap.xml
