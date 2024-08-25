@@ -9,13 +9,13 @@ profile:
   image: headshot_FR4.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> MC 5301 </p>
-    <p>200 University Ave W</p>
-    <p> Waterloo, ON N2L3G1</p>
+    <p> MC 5301 <br>
+    200 University Ave W <br>
+    Waterloo, ON N2L3G1 </p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 I am currently a PhD student at the [University of Waterloo](https://uwaterloo.ca/) under the supervision of [Spiro Karigiannis](https://www.math.uwaterloo.ca/~karigian/). Before this, I got my Bachelor of Mathematics and Master of Mathematics in Pure Mathematics also from the University of Waterloo in 2023 and 2024 respectively.     
