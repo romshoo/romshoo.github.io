@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p> 
       @ fromshoo(at)uwaterloo(dot)ca <br>
-      MC 5301 <br>
+      MC 5428 <br>
       200 University Ave W <br>
       Waterloo, ON N2L3G1
     </p>
