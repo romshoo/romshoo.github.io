@@ -9,6 +9,12 @@ nav_order: 3
 
 Here is the list of the courses I have TA'd for at the University of Waterloo (I was an undergraduate marker for the courses prior to Fall 2023): 
 
+
+<h4> Winter 2026: </h4> 
+<ul>
+    <li> PMATH 365 </li>
+    <li> MATH 119 (Calculus 2 for Engineering) </li>
+</ul>
 <h4> Fall 2025: </h4> 
 <ul>
     <li> PMATH 465/665 </li>
