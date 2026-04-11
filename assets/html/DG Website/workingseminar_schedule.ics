@@ -1,0 +1,159 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//Faisal Romshoo//DG Working Seminar Schedule//EN
+METHOD:PUBLISH
+X-WR-CALNAME:Waterloo Differential Geometry Working Seminar
+X-WR-TIMEZONE:America/Toronto
+
+BEGIN:VEVENT
+UID:20250108T153000-orga@fromshoo.github.io
+SUMMARY:Organizational Meeting (Spiro Karigiannis)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20250108T153000
+DTEND;TZID=America/Toronto:20250108T163000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250115T153000-general@fromshoo.github.io
+SUMMARY:DG Working Seminar
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20250115T153000
+DTEND;TZID=America/Toronto:20250115T163000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20240918T153000-milivojevic@fromshoo.github.io
+SUMMARY:Formality in rational homotopy theory (Aleksandar Milivojevic)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20240918T153000
+DTEND;TZID=America/Toronto:20240918T170000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20240925T153000-merchan@fromshoo.github.io
+SUMMARY:About formality of compact manifolds with holonomy G2 (Lucia Martin Merchan)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20240925T153000
+DTEND;TZID=America/Toronto:20240925T170000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20241002T153000-cusson@fromshoo.github.io
+SUMMARY:The Kodaira embedding theorem and background material (Paul Cusson)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20241002T153000
+DTEND;TZID=America/Toronto:20241002T170000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20241009T153000-vanwyk@fromshoo.github.io
+SUMMARY:The Generalised Levi-Civita Connection (Jacques Van Wyk)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20241009T153000
+DTEND;TZID=America/Toronto:20241009T170000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20241016T153000-majewski@fromshoo.github.io
+SUMMARY:Resolutions of Spin(7)-Orbifolds (Viktor Majewski)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20241016T153000
+DTEND;TZID=America/Toronto:20241016T170000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20241023T153000-romshoo@fromshoo.github.io
+SUMMARY:Special Lagrangian Geometry (Faisal Romshoo)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20241023T153000
+DTEND;TZID=America/Toronto:20241023T170000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20241030T153000-friedman@fromshoo.github.io
+SUMMARY:N-cohomologies on non-integrable almost complex manifolds (Zev Friedman)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20241030T153000
+DTEND;TZID=America/Toronto:20241030T170000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20241106T153000-camano@fromshoo.github.io
+SUMMARY:Gromov-Hausdorff Convergence (Facundo Camano)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20241106T153000
+DTEND;TZID=America/Toronto:20241106T170000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20241113T153000-villacis@fromshoo.github.io
+SUMMARY:Convexity of Toric Moment Maps (Francisco Villacis)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20241113T153000
+DTEND;TZID=America/Toronto:20241113T170000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20241120T153000-pawelko@fromshoo.github.io
+SUMMARY:Prequantum Line Bundles and Geometric Quantization (Alex Pawelko)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20241120T153000
+DTEND;TZID=America/Toronto:20241120T170000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20241127T153000-karigiannis@fromshoo.github.io
+SUMMARY:A tale of two Lie groups (Spiro Karigiannis)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20241127T153000
+DTEND;TZID=America/Toronto:20241127T170000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20241211T153000-friedman2@fromshoo.github.io
+SUMMARY:4-dimensional U(m)-structures (Zev Friedman)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20241211T153000
+DTEND;TZID=America/Toronto:20241211T170000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20241218T153000-romshoo2@fromshoo.github.io
+SUMMARY:Constructing associatives in 7-manifolds (Faisal Romshoo)
+DTSTAMP:20260411T000000Z
+DTSTART;TZID=America/Toronto:20241218T153000
+DTEND;TZID=America/Toronto:20241218T170000
+LOCATION:MC 5479
+DESCRIPTION:Waterloo Differential Geometry Working Seminar.
+END:VEVENT
+
+END:VCALENDAR
