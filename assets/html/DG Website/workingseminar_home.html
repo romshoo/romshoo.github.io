@@ -90,11 +90,42 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.cal-link,
+a[href^="javascript:"] {
+  text-decoration: none;
+}
 .cal-link {
   margin-left: 10px;
   font-size: 0.95em;
   color: #000080;
-  text-decoration: underline;
+}
+a[href^="javascript:"],
+.cal-link {
+  transition: color 0.15s ease;
+}
+a[href^="javascript:"]:hover,
+.cal-link:hover {
+  color: #C60078;
+}
+.button-link {
+  display: inline-block;
+  background-color: #C60078;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+}
+.button-link:hover {
+  background-color: #a50061;
+}
+.topnav a.button-link {
+  float: right;
+  margin: 12px 16px 0 0;
+  padding: 14px 16px;
+  font-size: 17px;
+  font-weight: 400;
 }
 </style>
 </head>
@@ -114,8 +145,8 @@ body {
   	<div class="dropdown">
     	<button class="dropbtn">Previous Schedules &#9660;</button>
     	<div class="dropdown-content">
-      		<a href="workingsem_24.html">2024 - 2025</a>
-      <a href="workingsem_23.html">2023 - 2024</a>
+    	<a href = "workingsem_24.html"> 2024 - 2025 </a>
+      		<a href="workingsem_23.html">2023 - 2024</a>
 	  		<a href="workingsem_22.html">2022 - 2023</a>
       		<a href="workingsem_21.html">2021 - 2022</a>
       		<a href="workingsem_20.html">2020 - 2021</a>
@@ -124,9 +155,7 @@ body {
     	</div>
   	</div>
 </div>
-<p style="text-align:center; margin:16px 0; font-size:0.95em;">
-  <a href="workingseminar_schedule.ics" download>Download full seminar schedule as a calendar file</a>
-</p>
+<div style="clear: both;"></div>
 <div class="content">
 	<div class="blue">
 		<table align="center" width="85%" cellpadding="10">
@@ -138,186 +167,435 @@ body {
  <h1 align = "center"> Waterloo Differential Geometry Working Seminar </h1>
 
  <font face = "Arial" size = 4px >
- <p align="center"> Academic Year 2024-2025 </p>
+ <p align="center"> Academic Year 2025-2026 </p>
  <br>
-
-     <b>Winter &#10052; Schedule</b> -  Wednesdays 3:30-4:30 pm in MC 5479.
-  <br>
-  <ul style="list-style: none;">
-    <li>
-      <p> <FONT color="#FF3383" > January 8th </FONT> </p> 
-      <p> <b> Spiro Karigiannis </b> - <i> Organizational Meeting </i>  <a href="javascript: void(0);" onClick="toggle('8Jan')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Organizational+Meeting+%28Spiro+Karigiannis%29&location=MC+5479&dates=20250108T153000/20250108T163000&ctz=America/Toronto">Add to calendar</a>
-      <div id="8Jan" style="display:none;">
-        <FONT size="3pt" color="#606060">
-            We will meet to plan out the Differential Geometry Working Seminar for the Winter 2025 term.
-        </FONT>
-      </div>
-    <hr>
-      <li>
-      <p> <FONT color="#FF3383" >January 15th  </FONT> </p> 
-      <p> <b>   </b> <i>  </i>  <a href="javascript: void(0);" onClick="toggle('15Jan')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=DG+Working+Seminar&location=MC+5479&dates=20250115T153000/20250115T163000&ctz=America/Toronto">Add to calendar</a>
-      <div id="15Jan" style="display:none;">
-        <FONT size="3pt" color="#606060">
-          
-        </FONT>
-      </div>
-      
-  </ul>
-  <hr style="width:100px; margin: auto;">
-  <br>
-     <br>
-
-     <b>Fall &#127810; Schedule</b> -  Wednesdays 3:30 pm-5:00 pm in MC 5479.
+ <br>
+ 
+ <p style="text-align:left; margin:18px 0 18px 0;">
+   <a class="button-link" href="workingseminar_schedule.ics" download>Download schedule (.ics file)</a>
+   <a id="calendar-subscribe-url" class="button-link" href="#" target="_blank" rel="noopener" style="margin-left:12px;">Subscribe</a>
+ </p>
+ <b> Winter  &#10052; Schedule</b> -  Thursday 2:30 pm-4:00 pm in MC 5403.
 <br>
-
 <ul style="list-style: none;">
-  <li>
-    <p> <FONT color="#FF3383" >September 18th  </FONT> </p> 
-    <p> <b> Aleksandar Milivojevic </b> - <i> Formality in rational homotopy theory </i>  <a href="javascript: void(0);" onClick="toggle('18sep')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Formality+in+rational+homotopy+theory+%28Aleksandar+Milivojevic%29&location=MC+5479&dates=20240918T153000/20240918T170000&ctz=America/Toronto">Add to calendar</a>
-    <div id="18sep" style="display:none;">
+<li>
+    <p> <FONT color="#FF3383" >September 8th </FONT> </p> 
+    <p> <b> Spiro Karigiannis </b> - <i> Organizational Meeting </i>  <a href="javascript: void(0);" onClick="toggle('8Jan')">(Abstract)</a>
+    <div id="8Jan" style="display:none;">
       <FONT size="3pt" color="#606060">
-        I will introduce the notion of formality of a manifold and will discuss some topological implications of this property, 
-        together with a computable obstruction to formality called the triple Massey product. 
-        I will then survey a conjecture relating formality and the existence of special holonomy metrics.
+        We will plan the speakers for the rest of the semester. 
       </FONT>
     </div>
     <hr>
   <li>
-    <p> <FONT color="#FF3383" >September 25th  (Special Geometry and Topology Seminar)</FONT> </p> 
-    <p> <b>  Lucia Martin Merchan </b>- <i>About formality of compact manifolds with holonomy \(\mathrm{G}_2\)  </i>  <a href="javascript: void(0);" onClick="toggle('25sep')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=About+formality+of+compact+manifolds+with+holonomy+G2+%28Lucia+Martin+Merchan%29&location=MC+5479&dates=20240925T153000/20240925T170000&ctz=America/Toronto">Add to calendar</a>
-    <div id="25sep" style="display:none;">
+    <p> <FONT color="#FF3383" >January 22nd </FONT> </p> 
+    <p> <b> Spencer Kelly </b> - <i> Proper Group Actions and the Slice Theorem in Finite Dimensions </i>  <a href="javascript: void(0);" onClick="toggle('22Jan')">(Abstract)</a>
+    <div id="22Jan" style="display:none;">
       <FONT size="3pt" color="#606060">
-        The connection between holonomy and rational homotopy theory was discovered by Deligne, Griffiths, Morgan, and Sullivan, who proved that compact Kähler manifolds are formal. This led to the conjecture that compact manifolds with special and exceptional holonomy should also be formal. In this talk, 
-        I will discuss my recent preprint arXiv:2409.04362, where I disprove the conjecture for holonomy \(\mathrm{G}_2\) manifolds.
+        In this talk we will begin by reviewing important properties of group actions on manifolds, and characteristics of proper actions. We then define isotropy and orbit types, discuss the slice theorem (on finite dimensional manifolds),  and go over non-trivial examples of slice bundles. This will set us up to conclude with the principal orbit theorem and the stratification of the orbit space.
       </FONT>
     </div>
-  <hr>
-  <li>
-      <p> <FONT color="#FF3383" > October 2nd  </FONT> </p> 
-      <p> <b> Paul Cusson </b> - <i> The Kodaira embedding theorem and background material </i> <a href="javascript: void(0);" onClick="toggle('2oct')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The+Kodaira+embedding+theorem+and+background+material+%28Paul+Cusson%29&location=MC+5479&dates=20241002T153000/20241002T170000&ctz=America/Toronto">Add to calendar</a>
-      <div id="2oct" style="display:none;">
-        <FONT size="3pt" color="#606060">
-          The Kodaira embedding theorem is a crucial result in complex geometry that forms a nice bridge between differential and algebraic geometry, giving a necessary and sufficient condition for a compact complex manifold to be a smooth projective variety, that is, a complex submanifold of a complex projective space.
-           The material and proof will follow the exposition in Griffiths & Harris's classic textbook.
+    <hr>
+    
+     <li>
+    <p> <FONT color="#FF3383" >January 29th </FONT> </p> 
+    <p> <b> Viktor Majewski </b> - <i> Dirac Operators on Orbifold Resolutions </i>  <a href="javascript: void(0);" onClick="toggle('29Jan')">(Abstract)</a>
+    <div id="29Jan" style="display:none;">
+      <FONT size="3pt" color="#606060">
+      In this talk we discuss Dirac operators along degenerating families of Riemannian manifolds that converge, in the Gromov-Hausdorff sense, to a Riemannian orbifold. Such degenerations arise naturally when analysing the boundary of Teichmüller spaces of special Riemannian metrics as well as moduli spaces appearing in gauge theory and calibrated geometry. Here sequences of smooth geometric structures on Riemannian manifolds may converge to an orbifold limit. To understand and control these degenerations, we introduce smooth Gromov-Hausdorff resolutions of orbifolds, that are, smooth families \((X_t,g_t)\), which collapse to the orbifold \((X_0,g_0)\) as \(t\to 0\). 
 
-        </FONT>
-      </div>
-  <hr>
-  <li>
-        <p> <FONT color="#FF3383" > October 9th   </FONT> </p> 
-        <p> <b> Jacques Van Wyk </b> - <i> “The” Generalised Levi-Civita Connection </i> <a href="javascript: void(0);" onClick="toggle('9oct')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The+Generalised+Levi-Civita+Connection+%28Jacques+Van+Wyk%29&location=MC+5479&dates=20241009T153000/20241009T170000&ctz=America/Toronto">Add to calendar</a>
-        <div id="9oct" style="display:none;">
-          <FONT size="3pt" color="#606060">
-            I will discuss the notions of generalised metrics and generalised connections in generalised geometry. A generalised connection has an associated torsion tensor, so one may ask, if given a generalised metric \(G\), whether there is a torsion-free connection \(D\) compatible with \(G\); 
-            this is the analogue of the Levi-Civita connection. We will see that there are infinitely many such connections \(D\), that is, there is no unique “generalised Levi-Civita connection,” a striking difference from the situation for Riemannian geometry.
-          </FONT>
-        </div>
-  <hr>
-  <li>
-          <p> <FONT color="#FF3383" >October 16th  (Special Geometry and Topology Seminar) </FONT> </p> 
-          <p> <b>  Viktor Majewski (Humboldt-Universität zu Berlin)</b>- <i>Resolutions of \(\textrm{Spin}(7)\)-Orbifolds </i> <a href="javascript: void(0);" onClick="toggle('16oct')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Resolutions+of+Spin%287%29-Orbifolds+%28Viktor+Majewski%29&location=MC+5479&dates=20241016T153000/20241016T170000&ctz=America/Toronto">Add to calendar</a>
-          <div id="16oct" style="display:none;">
-            <FONT size="3pt" color="#606060">
-              In Joyce's seminal work, he constructed the first examples of compact manifolds with exceptional holonomy by resolving flat orbifolds. Recently, Joyce and Karigiannis generalised these ideas in the \(\mathrm{G}_2\) setting to orbifolds with \(\mathbb{Z}_2\)-singular strata. 
-              In this talk I will present a generalisation of these ideas to \(\textrm{Spin}(7)\) orbifolds and more general isotropy types. I will highlight the main aspects of the construction and the analytical difficulties.
-            </FONT>
-          </div>
-  <hr>
-  <li>
-          <p> <FONT color="#FF3383" > October 23rd   </FONT> </p> 
-          <p> <b> Faisal Romshoo </b> - <i> Special Lagrangian Geometry </i> <a href="javascript: void(0);" onClick="toggle('23oct')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Special+Lagrangian+Geometry+%28Faisal+Romshoo%29&location=MC+5479&dates=20241023T153000/20241023T170000&ctz=America/Toronto">Add to calendar</a>
-          <div id="23oct" style="display:none;">
-            <FONT size="3pt" color="#606060">
-              I will talk about special Lagrangian submanifolds in \(\mathbb{C}^m\), which have garnered considerable interest in several areas in differential geometry and theoretical physics.
-              In particular, I will describe some examples of special Lagrangian submanifolds explicitly. 
-            </FONT>
-          </div>
-  <hr>
-  <li>
-          <p> <FONT color="#FF3383" > October 30th   </FONT> </p> 
-          <p> <b> Zev Friedman </b> - <i> \(N\)-cohomologies on non-integrable almost complex manifolds</i> <a href="javascript: void(0);" onClick="toggle('30oct')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=N-cohomologies+on+non-integrable+almost+complex+manifolds+%28Zev+Friedman%29&location=MC+5479&dates=20241030T153000/20241030T170000&ctz=America/Toronto">Add to calendar</a>
-          <div id="30oct" style="display:none;">
-            <FONT size="3pt" color="#606060">
-              I will define an \(N\)-cohomology and compute some interesting examples, 
-              showing the different isomorphism classes on certain almost complex manifolds.
-            </FONT>
-          </div>
-  <hr>   
-  <li>
-            <p> <FONT color="#FF3383" > November 6th   </FONT> </p> 
-            <p> <b> Facundo Camano </b>- <i> Gromov-Hausdorff Convergence  </i><a href="javascript: void(0);" onClick="toggle('6nov')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Gromov-Hausdorff+Convergence+%28Facundo+Camano%29&location=MC+5479&dates=20241106T153000/20241106T170000&ctz=America/Toronto">Add to calendar</a>
-            <div id="6nov" style="display:none;">
-              <FONT size="3pt" color="#606060">
-                I will introduce Hausdorff and Gromov-Hausdorff distances on metric spaces. We will look at examples of calculating distances and 
-                convergent sequences of metric spaces. We will end off with proving Gromov's 
-                precompactness theorem and a few pathological examples of convergence stemming from the result.
-              </FONT>
-            </div>
-  <hr>
-  <li>
-              <p> <FONT color="#FF3383" > November 13th  </FONT> </p> 
-              <p> <b> Francisco Villacis </b> - <i> Convexity of Toric Moment Maps </i> <a href="javascript: void(0);" onClick="toggle('13nov')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Convexity+of+Toric+Moment+Maps+%28Francisco+Villacis%29&location=MC+5479&dates=20241113T153000/20241113T170000&ctz=America/Toronto">Add to calendar</a>
-              <div id="13nov" style="display:none;">
-                <FONT size="3pt" color="#606060">
-                  Toric moment maps are arguably the nicest family of moment maps in symplectic geometry. A classical theorem from the 80s state that the images of these moment maps
-                   are convex polytopes, which was proven independently by Atiyah, and Guillemin and Sternberg. In this talk I 
-                  will go through Atiyah's slick proof of the convexity theorem using Morse theory, and if time permits I will talk about other results in this area.
-                </FONT>
-              </div>
-  <hr>
-  <li>
-                <p> <FONT color="#FF3383" > November 20th   </FONT> </p> 
-                <p> <b> Alex Pawelko </b> - <i> Prequantum Line Bundles and Geometric Quantization
-                </i> <a href="javascript: void(0);" onClick="toggle('20nov')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Prequantum+Line+Bundles+and+Geometric+Quantization+%28Alex+Pawelko%29&location=MC+5479&dates=20241120T153000/20241120T170000&ctz=America/Toronto">Add to calendar</a>
-                <div id="20nov" style="display:none;">
-                  <FONT size="3pt" color="#606060">
-                    Prequantum line bundles are objects in symplectic geometry that play a somewhat analogous role to holomorphic line bundles in complex geometry. In this talk, 
-                    we will discuss the existence of prequantum line bundles, examples of them, and their uses in symplectic geometry, most notably in geometric quantization.
-                  </FONT>
-                </div>
-  <hr>
-  <li>
-                  <p> <FONT color="#FF3383" > November 27th  </FONT> </p> 
-                  <p> <b> Spiro Karigiannis </b> -<i>  A tale of two Lie groups </i><a href="javascript: void(0);" onClick="toggle('27nov')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=A+tale+of+two+Lie+groups+%28Spiro+Karigiannis%29&location=MC+5479&dates=20241127T153000/20241127T170000&ctz=America/Toronto">Add to calendar</a>
-                  <div id="27nov" style="display:none;">
-                    <FONT size="3pt" color="#606060">
-                      The classical Lie group \(\mathrm{SO}(4)\) is well-known to possess a very rich structure, relating in several ways to complex Euclidean spaces. This structure can be used to construct the classical twistor space \(Z\) over an oriented Riemannian \(4\)-manifold \(M\), which is a \(6\)-dimensional almost Hermitian manifold. Special geometric properties of \(Z\) are then related to the curvature of \(M\), an example of which is the celebrated Atiyah-Hitchin-Singer Theorem. The Lie group \(\mathrm{Spin}(7)\) is a particular subgroup of \(\mathrm{SO}(8)\) determined by a special \(4\)-form. Intriguingly, \(\mathrm{Spin}(7)\) has several properties relating to complex Euclidean spaces which are direct analogues of \(\mathrm{SO}(4)\) properties, but sadly (or interestingly, depending on your point of view) not all of them. I will give a leisurely introduction to both groups in parallel, emphasizing the similarities and differences, and show how we can nevertheless at least partially succeed in constructing a "twistor space" over an \(8\)-dimensional manifold equipped with a 
-                      torsion-free \(\mathrm{Spin}(7)\)-structure. (I will define what those are.) This is joint work with Michael Albanese, Lucia Martin-Merchan, and Aleksandar Milivojevic. The talk will be accessible to a broad audience.
-                    </FONT>
-                  </div>
-  <hr>
-  <li>
-                    <p> <FONT color="#FF3383" > December 4th   </FONT> </p> 
+<br>
+<br>
+The central analytic problem addressed in this paper is to understand the behaviour of Dirac operators along such resolutions, in particular in collapsing regimes where classical elliptic estimates fail. We develop a uniform Fredholm theory for the family of Dirac operators on the Gromov-Hausdorff resolution. Using weighted function spaces, adiabatic analysis, and a decomposition of \(X_t\) into asymptotically conical fibred (ACF), conically fibred (CF) and conically fibred singular (CFS), we obtain uniform realisations of the model operators and prove a linear gluing exact sequence relating global and local (co)kernels. As a consequence, we construct uniformly bounded right inverses for \(D_t\), and derive an index additivity formula.
+<br>
+<br>
+ The theory developed here provides the analytic foundation for nonlinear gluing problems in gauge theory and special holonomy geometry, including torsion-free \(G\)-structures, instantons, and calibrated submanifolds of Riemannian manifolds close to an orbifold limit.
+      </FONT>
+    </div>
+    <hr>
+    
+    
+    
+    
+
+    
+     <li>
+    <p> <FONT color="#FF3383" >February 12th </FONT> </p> 
+    <p> <b> Paul Cusson </b> - <i> Spectral curves of Euclidean \(\mathrm{SU}(N)\)-monopoles </i>  <a href="javascript: void(0);" onClick="toggle('12Feb')">(Abstract)</a>
+    <div id="12Feb" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        Monopoles over Euclidean \(\mathbb{R}^3\) with gauge group \(\mathrm{SU}(N)\), originally analytic objects, can be studied using the algebro-geometric properties of their spectral curves. We will discuss known results about these curves and how they depend on the asymptotics of the monopole's Higgs field. We will then go over some elementary results that restrict the possible degrees of the spectral curves when we impose symmetries on these monopoles from finite subgroups of \(\mathrm{SO}(3)\)
+      </FONT>
+    </div>
+    <hr>
+    
+     <li>
+                    <p> <FONT color="#FF3383" > February 19th   </FONT> </p> 
                     <p> <b> Pause  </b> 
-                    <div id="4dec" style="display:none;">
+                    <div id="16feb" style="display:none;">
                       <FONT size="3pt" color="#606060">
                         
                       </FONT>
                     </div>
   <hr>
   <li>
-                      <p> <FONT color="#FF3383" > December 11th   </FONT> </p> 
-                      <p> <b> Zev Friedman </b> - <i> \(4\)-dimensional \(\mathrm{U(m)}\)-structures</i> <a href="javascript: void(0);" onClick="toggle('11dec')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=4-dimensional+U%28m%29-structures+%28Zev+Friedman%29&location=MC+5479&dates=20241211T153000/20241211T170000&ctz=America/Toronto">Add to calendar</a>
-                      <div id="11dec" style="display:none;">
-                        <FONT size="3pt" color="#606060">
-                          We will define the modified deRham operator \(D\) on \(U(m)\)-structures, 
-                          and prove that \(D^2=0\) is equivalent to \(d \omega=0\) in the \(4\)-dimensional case.
-                        </FONT>
-                      </div>
+    
+    
+     <li>
+    <p> <FONT color="#FF3383" >February 26th </FONT> </p> 
+    <p> <b> Faisal Romshoo </b> - <i> Deformations of calibrations </i>  <a href="javascript: void(0);" onClick="toggle('26feb')">(Abstract)</a>
+    <div id="26feb" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        We will look at a criterion for unobstructedness for calibrations and see when the corresponding moduli spaces form smooth manifolds, following the approach by Goto in <a href="https://arxiv.org/abs/math/0112197">https://arxiv.org/abs/math/0112197</a>
+      </FONT>
+    </div>
+    <hr>
+    
+     <li>
+    <p> <FONT color="#FF3383" >March 5th </FONT> </p> 
+    <p> <b> Facundo Camano </b> - <i> Moduli Space Degeneration via Monopole Deformation </i>  <a href="javascript: void(0);" onClick="toggle('5mar')">(Abstract)</a>
+    <div id="5mar" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        In this talk, I will discuss the theory behind the deformation of monopoles. I will then apply the theory to show monopole moduli spaces degenerate as a singularity is sent off towards infinity.
+      </FONT>
+    </div>
+    <hr>
+    
+    <li>
+    <p> <FONT color="#FF3383" >March 12th </FONT> </p> 
+    <p> <b> Amanda Petcu </b> - <i> Some results on hypersymplectic structures </i>  <a href="javascript: void(0);" onClick="toggle('12mar')">(Abstract)</a>
+    <div id="12mar" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        A conjecture of Simon Donaldson is that on a compact \(4\)-manifold \(X^4\) one can flow from a hypersymplectic structure to a hyperk\"ahler structure while remaining in the same cohomology class. To this end the hypersymplectic flow was introduced by Fine-Yao. In this thesis the notion of a positive triple on \(X^4\) is used to define a hypersymplectic and hyperk\"ahler structure. Given a closed positive triple one can define either a closed \(G_2\) structure or a coclosed \(G_2\) structure on \(\mathbb{T}^3 \times X^4\). The coclosed \(G_2\) structure is evolved under the \(G_2\) Laplacian coflow. This descends to a flow of the positive triple on \(X^4\), which is again the Fine-Yao hypersymplectic flow. In the second part of this thesis we let \(X^4 = \mathbb{R}^4 \setminus \{0\}\) with a particular cohomogeneity one action. A hypersymplectic structure invariant under this action is introduced. The Riemann and Ricci curvature tensors are computed and we verify in a particular case that this hypersymplectic structure can be transformed to a hyperkahler structure. The notion of a soliton for the hypersymplectic flow in this particular case is introduced and it is found that steady solitons give rise to hypersymplectic structures that can be transformed to hyperkahler structures. Some other soliton solutions are also discussed.
+      </FONT>
+    </div>
+    <hr>
+    
+    <li>
+    <p> <FONT color="#FF3383" > March 19th </FONT> </p> 
+    <p> <b> Viktor Majewski </b> - <i> Filling Holes in the \(\mathrm{Spin}(7)\)-Teichmüller Space and String Cohomology </i>  <a href="javascript: void(0);" onClick="toggle('19mar')">(Abstract)</a>
+    <div id="19mar" style="display:none;">
+      <FONT size="3pt" color="#606060">
+         In this talk, I apply the analytic results from the first talk to study the boundary of the \(\mathrm{Spin}(7)\) Teichmüller space. Using compactness results for Ricci-flat metrics together with known examples of \(\mathrm{Spin}(7)\) manifolds, it is known that \(\mathrm{Spin}(7)\) orbifolds with \(\mathrm{SU}(n)\) isotropy arise as boundary points of the moduli space.
+    <br>
+    <br>
+Building on the resolution scheme for \(\mathrm{Spin}(7)\) orbifolds that I discussed in 2024, and which I will briefly review, we show how this boundary can be removed by requiring \(\mathrm{Spin}(7)\) orbifolds to encode information about their resolutions. In this way, the Teichmüller space is enlarged to include orbifold limits together with their compatible resolutions, thereby filling in the boundary.
+<br>
+<br>
+Finally, we explain how this perspective is related to a \(\mathrm{Spin}(7)\) analogue of the crepant resolution conjecture from string cohomology, providing a geometric interpretation of the obstruction complex discussed in the linear gluing analysis in the first talk.
+
+      </FONT>
+    </div>
+    <hr>
+    
+    <li>
+    <p> <FONT color="#FF3383" >March 26th </FONT> </p> 
+    <p> <b> Spencer Kelly </b> - <i> Constructing a Slice Theorem in Infinite Dimensions </i>  <a href="javascript: void(0);" onClick="toggle('26mar')">(Abstract)</a>
+    <div id="26mar" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        The slice theorem is a powerful tool for understanding proper group actions on manifolds; however it does not hold on infinite dimensional manifolds, nor does there exist a general infinite dimensional extension of it. However, on specific infinite dimensional manifolds, working on a case-by-case basis, we have been able to construct analogues of the slice theorem. In this talk, we will investigate one of these cases, namely the space of connections on a bundle over a compact Riemannian manifold, acted on by the gauge group.
+      </FONT>
+    </div>
+    <hr>
+    
+    
+    
+    
+     <li>
+    <p> <FONT color="#FF3383" >April 2nd </FONT> </p> 
+    <p> <b> Faisal Romshoo </b> - <i> Deformations of calibrations, II  </i>  <a href="javascript: void(0);" onClick="toggle('2April')">(Abstract)</a>
+    <div id="2April" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        We will continue where we left off last time, completing the proof of when the obstructions for the calibrations vanish. If time permits, we will go through the proof of the fact that if an orbit is metrical, elliptic and topological, then the corresponding moduli space is a smooth manifold. 
+      </FONT>
+    </div>
+    <hr>
+    
+    
+    
+    <li>
+                    <p> <FONT color="#FF3383" > April 9th   </FONT> </p> 
+                    <p> <b> Pause  </b> 
+                    <div id="99feb" style="display:none;">
+                      <FONT size="3pt" color="#606060">
+                        
+                      </FONT>
+                    </div>
   <hr>
   <li>
-                        <p> <FONT color="#FF3383" > December 18th   </FONT> </p> 
-                        <p> <b> Faisal Romshoo </b> - <i> Constructing associatives in \(7\)-manifolds</i> <a href="javascript: void(0);" onClick="toggle('18dec')">(Abstract)</a> <a class="cal-link" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Constructing+associatives+in+7-manifolds+%28Faisal+Romshoo%29&location=MC+5479&dates=20241218T153000/20241218T170000&ctz=America/Toronto">Add to calendar</a>
-                        <div id="18dec" style="display:none;">
-                          <FONT size="3pt" color="#606060">
-                            We will revisit the classical examples of Special Lagrangians invariant under some group \(G \subset \mathrm{SU(n)}\) using a new method and 
-                            check if we can use the same method to construct associative submanifolds, which are a type of calibrated \(3\)-submanifolds in \(7\)-manifolds, in \(\mathbb{R}^7\).
-                          </FONT>
-                        </div>
+    
+    
+    
+    
+     <li>
+    <p> <FONT color="#FF3383" >April 16th </FONT> </p> 
+    <p> <b> Alex Pawelko </b> - <i> Morse Theory via Harmonic Oscillators </i>  <a href="javascript: void(0);" onClick="toggle('9april')">(Abstract)</a>
+    <div id="9april" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        We will discuss the approach to Morse Theory originally due to Witten, where one constructs deformed Laplace operators whose low-energy eigenvectors concentrate near the critical points of one's Morse function, and then uses Hodge theory to relate this to de Rham cohomology.
+      </FONT>
+    </div>
+    <hr>
+    
+     <li>
+    <p> <FONT color="#FF3383" >April 23rd </FONT> </p> 
+    <p> <b> Paul Cusson </b> - <i> TBD </i>  <a href="javascript: void(0);" onClick="toggle('16april')">(Abstract)</a>
+    <div id="16april" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        TBD
+      </FONT>
+    </div>
+    <hr>
+
+<li>
+    <p> <FONT color="#FF3383" >April 30th </FONT> </p> 
+    <p> <b> Facundo Camano </b> - <i> TBD </i>  <a href="javascript: void(0);" onClick="toggle('23april')">(Abstract)</a>
+    <div id="23april" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        TBD
+      </FONT>
+    </div>
+    <hr>    
+      
+      </ul>
+  
+  <hr style="width:100px; margin: auto;">
+  <br>
+     <br>
+
+  
+
+    
+
+     <b>Fall &#127810; Schedule</b> -  Thursday 2:30 pm-4:00 pm in MC 5403.
+<br>
+
+<ul style="list-style: none;">
+  <li>
+    <p> <FONT color="#FF3383" >September 4th </FONT> </p> 
+    <p> <b> Spiro Karigiannis </b> - <i> Organizational Meeting </i>  <a href="javascript: void(0);" onClick="toggle('4sep')">(Abstract)</a>
+    <div id="4sep" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        We will plan the speakers for the rest of the semester. 
+      </FONT>
+    </div>
+    <hr>
+  <li>
+    <p> <FONT color="#FF3383" >September 11 </FONT> </p> 
+    <p> <b>  Aleksandar Milivojevic </b>- <i> Realizing topological data by closed almost complex manifolds  </i>  <a href="javascript: void(0);" onClick="toggle('11sep')">(Abstract)</a>
+    <div id="11sep" style="display:none;">
+      <FONT size="3pt" color="#606060">
+         I will talk about the topological obstructions to placing an almost complex structure on a smooth manifold. I will then discuss how the vanishing of these obstructions is in many cases sufficient to realize a given rational homotopy type (with a choice of cohomology classes) by an almost complex manifold (with those cohomology classes as its rational Chern classes).
+      </FONT>
+    </div>
+  <hr>
+  <li>
+      <p> <FONT color="#FF3383" >September 18th </FONT> </p> 
+    <p> <b>   Alex Pawelko </b>- <i> Calibrated Geometry of a Strongly Nondegenerate Knot Space  </i>  <a href="javascript: void(0);" onClick="toggle('18sep')">(Abstract)</a>
+    <div id="18sep" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        We will discuss a modification of Lee-Leung's work of the Kaehler structure on the knot space that allows one to define an infinite-dimensional analogue of G2 manifolds, then explore their calibrated geometry. 
+      </FONT>
+    </div>
+  <hr>
+  <li>
+        <p> <FONT color="#FF3383" >September 25th </FONT> </p> 
+    <p> <b>  Jacques Van Wyk  </b>- <i> The Clutching Construction  </i>  <a href="javascript: void(0);" onClick="toggle('25sep')">(Abstract)</a>
+    <div id="25sep" style="display:none;">
+      <FONT size="3pt" color="#606060">
+         The clutching construction is a technique in differential topology to construct fibre bundles over spheres. I will explain how the clutching construction works, and how it can be used to define symplectic fibre bundles over spheres.
+      </FONT>
+    </div>
+  <hr>
+  <li>
+          <p> <FONT color="#FF3383" >October 2nd  </FONT> </p> 
+    <p> <b>  Faisal Romshoo </b>- <i> Constructing examples of Smith maps  </i>  <a href="javascript: void(0);" onClick="toggle('2oct')">(Abstract)</a>
+    <div id="2oct" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        I will start off by giving some background on Smith maps, which are special k-harmonic maps between two Riemannian manifolds.  Smith maps have deep connections with both calibrated geometry and conformal geometry. I will then discuss my current work, where I am trying to construct explicit examples of Smith immersions.
+
+      </FONT>
+    </div>
+  <hr>
+  
+   <li>
+          <p> <FONT color="#FF3383" >October 9th </FONT> </p> 
+    <p> <b>  Paul Cusson </b>- <i> Various moduli spaces of monopoles  </i>  <a href="javascript: void(0);" onClick="toggle('9oct')">(Abstract)</a>
+    <div id="9oct" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        We will go over, in increasing generality, results classifying various classes of Euclidean \(SU(n)\)-monopoles, starting with the \(n=2\) case. We will see that these moduli spaces are described using spaces of rational maps from the projective line to flag varieties.
+      </FONT>
+    </div>
+  <hr>
+  <li>
+  
+  
+  <li>
+                    <p> <FONT color="#FF3383" > October 16th   </FONT> </p> 
+                    <p> <b> Pause  </b> 
+                    <div id="16oct" style="display:none;">
+                      <FONT size="3pt" color="#606060">
+                        
+                      </FONT>
+                    </div>
+  <hr>
+  <li>
+  
+  <li>
+          <p> <FONT color="#FF3383" >October 23 </FONT> </p> 
+    <p> <b>  Alexander Cole Teeter </b>- <i> Slice Knots and Knot Concordance  </i>  <a href="javascript: void(0);" onClick="toggle('23oct')">(Abstract)</a>
+    <div id="23oct" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        In this talk, we explore an overview of the interplay between Knot Theory and Four Dimensional Topology. Specifically, we look at both Topologically and Smoothly Slice Knots, which are Knots in \(S^{3}\) that bound (smoothly) embedded disks in \(B^{4}\). We explore some of the techniques in the proof that the conway knot is not smoothly slice,and look at some of the ideas involved the construction of exotic \(\mathbb{R}^{4}\)s using such knots.
+
+      </FONT>
+    </div>
+  <hr>
+  <li>
+  
+  <li>
+          <p> <FONT color="#FF3383" >October 30 </FONT> </p> 
+    <p> <b>  Amanda Petcu </b>- <i> Stability and Lyapunov Functions  </i>  <a href="javascript: void(0);" onClick="toggle('30oct')">(Abstract)</a>
+    <div id="30oct" style="display:none;">
+      <FONT size="3pt" color="#606060">
+        When working with a nonlinear system of differential equations, finding explicit, closed-form solutions can be difficult. A tool in such situations is to determine the stability of the equilibrium points of the system. This analysis allows us to predict the long-term behavior of the system by examining its trajectories and how they behave near an equilibrium point: specifically, do they remain bounded in some compact set, converge to the point, or escape to infinity? In this talk, we will discuss Lyapunov's Direct Method, a technique that allows us to determine the stability of an equilibrium point without explicitly solving the differential equations.
+
+      </FONT>
+    </div>
+  <hr>
+  <li>
+                    <p> <FONT color="#FF3383" > November 8th   </FONT> </p> 
+                    <p> <b> Pause  </b> 
+                    <div id="8Nov" style="display:none;">
+                      <FONT size="3pt" color="#606060">
+                        
+                      </FONT>
+                    </div>
+  <hr>
+  <li>
+  
+  
+   <p> <FONT color="#FF3383" > November 13th   </FONT> </p> 
+            <p> <b> Paul Cusson </b>- <i> Moduli spaces of monopoles part 2  </i><a href="javascript: void(0);" onClick="toggle('13nov')">(Abstract)</a>
+            <div id="13nov" style="display:none;">
+              <FONT size="3pt" color="#606060">
+                We continue discussing Euclidean \(SU(n)\)-monopoles, now in the case \(n \geq 3\), and we aim to describe their moduli spaces using spaces of rational maps from the projective line to flag varieties.
+              </FONT>
+            </div>
+  <hr>
+  <li>
+              
+      <p> <FONT color="#FF3383" > November 20th   </FONT> </p> 
+            <p> <b> Facundo Camano </b>- <i> Dimensional Reduction of \(S^1\)-Invariant Instantons on the Multi-Taub-NUT  </i><a href="javascript: void(0);" onClick="toggle('20nov')">(Abstract)</a>
+            <div id="20nov" style="display:none;">
+              <FONT size="3pt" color="#606060">
+                In this talk I will discuss the dimensional reduction of \(S^1\)-invariant instantons on the multi-Taub-NUT space to singular monopolos on \(\mathbb{R}^3\). I will first introduce the multi-Taub-NUT space, followed up by a discussion on \(S^1\)-equivariant principal bundles. Next, I will go over the natural decomposition of \(S^1\)-invariant connections into horizontal and vertical pieces, and then show how the self-duality equation reduces to the Bogomolny equation under said decomposition. I will then show how the smoothness of the instanton over the NUT points determines the asymptotic conditions for the singular monopole. Finally, I will go over the reverse construction: starting with a singular monopole on \(\mathbb{R}^3\) and building up to an \(S^1\)-invariant instanton on the multi-Taub-NUT space.
+
+              </FONT>
+            </div>
+  <hr>
+  <li>           
+               
+    <p> <FONT color="#FF3383" > November 27th   </FONT> </p> 
+            <p> <b> Kaleb Ruscitti </b>- <i> Correspondence between logarithmic connections and framed parabolic bundles on the blow up of a nodal Riemann surface  </i><a href="javascript: void(0);" onClick="toggle('27nov')">(Abstract)</a>
+            <div id="27nov" style="display:none;">
+              <FONT size="3pt" color="#606060">
+                In this seminar I will explain how a Mehta-Seshadri type correspondence between logarithmic connections and parabolic vector bundles works for a specific setting of interest. That is the blow up of the complex  curve \(xy=t\) at the nodal point
+              </FONT>
+            </div>
+  <hr>
+  <li>            
+                
+          <p> <FONT color="#FF3383" > December 4th   </FONT> </p> 
+            <p> <b>  Spiro Karigiannis </b>- <i>  Schwarz Lemma for Smith maps  </i><a href="javascript: void(0);" onClick="toggle('4dec')">(Abstract)</a>
+            <div id="4dec" style="display:none;">
+              <FONT size="3pt" color="#606060">
+                I will discuss a generalized Schwarz Lemma for Smith maps, proved recently by Broder-Iliashenko-Madnick, and explain how it generalizes the classical Schwarz Lemma from complex analysis.
+              </FONT>
+            </div>
+  <hr>
+  <li>
+  
+  <p> <FONT color="#FF3383" > December 11th   </FONT> </p> 
+            <p> <b> Alex Pawelko </b>- <i> Riemannian Geometry of Knot Spaces  </i><a href="javascript: void(0);" onClick="toggle('11dec')">(Abstract)</a>
+            <div id="11dec" style="display:none;">
+              <FONT size="3pt" color="#606060">
+                We will review the construction of knot spaces of manifolds, specifically over \(G_2\) and \(\text{Spin}(7)\) manifolds. We will then see an explicit construction of the Levi-Civita connection of the knot space, and see what this can tell us about the torsion of the induced special geometric structures on knot spaces of \(G_2\) and \(\text{Spin}(7)\) manifolds.
+              </FONT>
+            </div>
+  <hr>
+  <li>    
+       
+                 
   </ul>   
+<script type="text/javascript">
+(function() {
+  function pad2(value) {
+    return String(value).padStart(2, '0');
+  }
+  function monthNumber(name) {
+    var map = {
+      January: '01', February: '02', March: '03', April: '04', May: '05', June: '06',
+      July: '07', August: '08', September: '09', October: '10', November: '11', December: '12'
+    };
+    return map[name] || '';
+  }
+  function eventDateValue(dateText) {
+    var monthMatch = dateText.match(/(January|February|March|April|May|June|July|August|September|October|November|December)/i);
+    var dayMatch = dateText.match(/\d{1,2}/);
+    if (!monthMatch || !dayMatch) return null;
+    var month = monthNumber(monthMatch[1]);
+    var day = pad2(dayMatch[0]);
+    var year = /September|October|November|December/i.test(monthMatch[1]) ? '2025' : '2026';
+    return year + month + day;
+  }
+  function createCalendarLink(title, dateValue) {
+    var url = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
+      + '&text=' + encodeURIComponent(title)
+      + '&location=' + encodeURIComponent('MC 5403')
+      + '&dates=' + dateValue + 'T143000/' + dateValue + 'T160000'
+      + '&ctz=America/Toronto';
+    var link = document.createElement('a');
+    link.className = 'cal-link';
+    link.href = url;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.textContent = 'Add to calendar';
+    return link;
+  }
+  function insertCalendarButtons() {
+    document.querySelectorAll('ul[style*="list-style: none"] > li').forEach(function(li) {
+      var dateNode = li.querySelector('font[color="#FF3383"]');
+      var infoP = Array.from(li.querySelectorAll('p')).find(function(p) {
+        return p.querySelector('b') && p.querySelector('i');
+      });
+      var abstractLink = li.querySelector('a[href^="javascript:"][onClick*="toggle"]');
+      if (!dateNode || !infoP || !abstractLink) return;
+      var dateText = dateNode.textContent.trim();
+      var speaker = infoP.querySelector('b') ? infoP.querySelector('b').textContent.trim() : '';
+      var title = infoP.querySelector('i') ? infoP.querySelector('i').textContent.trim() : '';
+      if (!speaker || speaker.toLowerCase().includes('pause') || title.toLowerCase() === 'tbd') return;
+      var dateValue = eventDateValue(dateText);
+      if (!dateValue) return;
+      var eventTitle = title + ' (' + speaker + ')';
+      if (!abstractLink.nextElementSibling || !abstractLink.nextElementSibling.classList.contains('cal-link')) {
+        abstractLink.insertAdjacentElement('afterend', createCalendarLink(eventTitle, dateValue));
+      }
+    });
+  }
+  function populateSubscriptionUrl() {
+    var url = window.location.origin + '/assets/html/DG%20Website/workingseminar_schedule.ics';
+    var anchor = document.getElementById('calendar-subscribe-url');
+    if (anchor) {
+      anchor.href = url.replace(/^https?:\/\//, 'webcal://');
+      anchor.textContent = 'Subscribe';
+    }
+  }
+  window.addEventListener('DOMContentLoaded', function() {
+    insertCalendarButtons();
+    populateSubscriptionUrl();
+  });
+})();
+</script>
 </body>
 </html>
-
-
-
-
