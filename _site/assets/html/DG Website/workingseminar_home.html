@@ -583,8 +583,12 @@ Finally, we explain how this perspective is related to a \(\mathrm{Spin}(7)\) an
       }
     });
   }
+  function calendarSubscriptionUrl() {
+    var basePath = window.location.pathname.replace(/\/[^\/]*$/, '/');
+    return window.location.origin + basePath + 'workingseminar_schedule.ics';
+  }
   function copySubscriptionUrl() {
-    var url = window.location.origin + '/assets/html/DG%20Website/workingseminar_schedule.ics';
+    var url = calendarSubscriptionUrl();
     var clipboardText = url;
     var button = document.getElementById('calendar-copy-btn');
     if (!button || !navigator.clipboard) return;
@@ -601,10 +605,15 @@ Finally, we explain how this perspective is related to a \(\mathrm{Spin}(7)\) an
     });
   }
   function populateSubscriptionUrl() {
-    var url = window.location.origin + '/assets/html/DG%20Website/workingseminar_schedule.ics';
+    var url = calendarSubscriptionUrl();
     var button = document.getElementById('calendar-copy-btn');
     if (button) {
       button.dataset.copyUrl = url;
+    }
+    var urlLink = document.getElementById('calendar-url-link');
+    if (urlLink) {
+      urlLink.href = url;
+      urlLink.textContent = url;
     }
   }
   window.addEventListener('DOMContentLoaded', function() {

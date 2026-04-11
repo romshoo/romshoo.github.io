@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.math.uwaterloo.ca/~fromshoo//sitemap.xml
