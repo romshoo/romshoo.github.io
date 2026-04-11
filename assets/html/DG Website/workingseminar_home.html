@@ -173,7 +173,7 @@ a[href^="javascript:"]:hover,
  
  <p style="text-align:left; margin:18px 0 18px 0;">
    <a class="button-link" href="workingseminar_schedule.ics" download>Download schedule (.ics file)</a>
-   <a id="calendar-subscribe-url" class="button-link" href="#" target="_blank" rel="noopener" style="margin-left:12px;">Subscribe</a>
+   <a id="calendar-copy-btn" href="javascript:void(0);" class="button-link" style="margin-left:12px;">Copy calendar URL</a>
  </p>
  <b> Winter  &#10052; Schedule</b> -  Thursday 2:30 pm-4:00 pm in MC 5403.
 <br>
@@ -583,17 +583,37 @@ Finally, we explain how this perspective is related to a \(\mathrm{Spin}(7)\) an
       }
     });
   }
+  function copySubscriptionUrl() {
+    var url = window.location.origin + '/assets/html/DG%20Website/workingseminar_schedule.ics';
+    var clipboardText = url;
+    var button = document.getElementById('calendar-copy-btn');
+    if (!button || !navigator.clipboard) return;
+    navigator.clipboard.writeText(clipboardText).then(function() {
+      var originalText = button.textContent;
+      button.textContent = 'Copied!';
+      button.disabled = true;
+      setTimeout(function() {
+        button.textContent = originalText;
+        button.disabled = false;
+      }, 1500);
+    }).catch(function() {
+      window.prompt('Copy this calendar URL:', clipboardText);
+    });
+  }
   function populateSubscriptionUrl() {
     var url = window.location.origin + '/assets/html/DG%20Website/workingseminar_schedule.ics';
-    var anchor = document.getElementById('calendar-subscribe-url');
-    if (anchor) {
-      anchor.href = url.replace(/^https?:\/\//, 'webcal://');
-      anchor.textContent = 'Subscribe';
+    var button = document.getElementById('calendar-copy-btn');
+    if (button) {
+      button.dataset.copyUrl = url;
     }
   }
   window.addEventListener('DOMContentLoaded', function() {
     insertCalendarButtons();
     populateSubscriptionUrl();
+    var button = document.getElementById('calendar-copy-btn');
+    if (button) {
+      button.addEventListener('click', copySubscriptionUrl);
+    }
   });
 })();
 </script>
