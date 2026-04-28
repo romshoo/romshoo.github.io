@@ -1,1006 +1,364 @@
 BEGIN:VCALENDAR
-
 VERSION:2.0
-
 PRODID:-//romshoo.github.io//DG Working Seminar Calendar//EN
-
 CALSCALE:GREGORIAN
-
 METHOD:PUBLISH
-
 X-WR-CALNAME:Waterloo Differential Geometry Working Seminar
-
 X-WR-TIMEZONE:America/Toronto
-
 BEGIN:VTIMEZONE
-
 TZID:America/Toronto
-
 X-LIC-LOCATION:America/Toronto
-
 BEGIN:STANDARD
-
 TZOFFSETFROM:-0400
-
 TZOFFSETTO:-0500
-
 TZNAME:EST
-
 DTSTART:19701101T020000
-
 END:STANDARD
-
 BEGIN:DAYLIGHT
-
 TZOFFSETFROM:-0500
-
 TZOFFSETTO:-0400
-
 TZNAME:EDT
-
 DTSTART:19700308T020000
-
 END:DAYLIGHT
-
 END:VTIMEZONE
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20250904T000000-OrganizationalMeeting-workingseminar@romshoo.github.io
-
-SUMMARY:Spiro Karigiannis — Organizational Meeting
-
-DESCRIPTION:Speaker: Spiro Karigiannis\nTitle: Organizational Meeting\n\nWe
-
-  will plan the speakers for the rest of the semester.
-
-DTSTART;TZID=America/Toronto:20250904T143000
-
-DTEND;TZID=America/Toronto:20250904T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260506T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: Facundo Camano \nTitle: \n\n
+DTSTART;TZID=America/Toronto:20260506T140000
+DTEND;TZID=America/Toronto:20260506T153000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20250908T000000-OrganizationalMeeting-workingseminar@romshoo.github.io
-
-SUMMARY:Spiro Karigiannis — Organizational Meeting
-
-DESCRIPTION:Speaker: Spiro Karigiannis\nTitle: Organizational Meeting\n\nWe
-
-  will plan the speakers for the rest of the semester.
-
-DTSTART;TZID=America/Toronto:20250908T143000
-
-DTEND;TZID=America/Toronto:20250908T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260506T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260506T153000
+DTEND;TZID=America/Toronto:20260506T170000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20250911T000000-Realizingtopologicaldatabyclosedalmostcomplexmanifolds-
-
- workingseminar@romshoo.github.io
-
-SUMMARY:Aleksandar Milivojevic — Realizing topological data by closed almos
-
- t complex manifolds
-
-DESCRIPTION:Speaker: Aleksandar Milivojevic\nTitle: Realizing topological d
-
- ata by closed almost complex manifolds\n\nI will talk about the topological
-
-  obstructions to placing an almost complex structure on a smooth manifold. 
-
- I will then discuss how the vanishing of these obstructions is in many case
-
- s sufficient to realize a given rational homotopy type (with a choice of co
-
- homology classes) by an almost complex manifold (with those cohomology clas
-
- ses as its rational Chern classes).
-
-DTSTART;TZID=America/Toronto:20250911T143000
-
-DTEND;TZID=America/Toronto:20250911T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260513T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260513T140000
+DTEND;TZID=America/Toronto:20260513T153000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20250918T000000-CalibratedGeometryofaStronglyNondegenerateKnotSpace-wor
-
- kingseminar@romshoo.github.io
-
-SUMMARY:Alex Pawelko — Calibrated Geometry of a Strongly Nondegenerate Knot
-
-  Space
-
-DESCRIPTION:Speaker: Alex Pawelko\nTitle: Calibrated Geometry of a Strongly
-
-  Nondegenerate Knot Space\n\nWe will discuss a modification of Lee-Leung's 
-
- work of the Kaehler structure on the knot space that allows one to define a
-
- n infinite-dimensional analogue of G2 manifolds\, then explore their calibr
-
- ated geometry.
-
-DTSTART;TZID=America/Toronto:20250918T143000
-
-DTEND;TZID=America/Toronto:20250918T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260513T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260513T153000
+DTEND;TZID=America/Toronto:20260513T170000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20250925T000000-TheClutchingConstruction-workingseminar@romshoo.github.
-
- io
-
-SUMMARY:Jacques Van Wyk — The Clutching Construction
-
-DESCRIPTION:Speaker: Jacques Van Wyk\nTitle: The Clutching Construction\n\n
-
- The clutching construction is a technique in differential topology to const
-
- ruct fibre bundles over spheres. I will explain how the clutching construct
-
- ion works\, and how it can be used to define symplectic fibre bundles over 
-
- spheres.
-
-DTSTART;TZID=America/Toronto:20250925T143000
-
-DTEND;TZID=America/Toronto:20250925T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260520T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260520T140000
+DTEND;TZID=America/Toronto:20260520T153000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20251002T000000-ConstructingexamplesofSmithmaps-workingseminar@romshoo.
-
- github.io
-
-SUMMARY:Faisal Romshoo — Constructing examples of Smith maps
-
-DESCRIPTION:Speaker: Faisal Romshoo\nTitle: Constructing examples of Smith 
-
- maps\n\nI will start off by giving some background on Smith maps\, which ar
-
- e special k-harmonic maps between two Riemannian manifolds. Smith maps have
-
-  deep connections with both calibrated geometry and conformal geometry. I w
-
- ill then discuss my current work\, where I am trying to construct explicit 
-
- examples of Smith immersions.
-
-DTSTART;TZID=America/Toronto:20251002T143000
-
-DTEND;TZID=America/Toronto:20251002T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260520T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260520T153000
+DTEND;TZID=America/Toronto:20260520T170000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20251009T000000-Variousmodulispacesofmonopoles-workingseminar@romshoo.g
-
- ithub.io
-
-SUMMARY:Paul Cusson — Various moduli spaces of monopoles
-
-DESCRIPTION:Speaker: Paul Cusson\nTitle: Various moduli spaces of monopoles
-
- \n\nWe will go over\, in increasing generality\, results classifying variou
-
- s classes of Euclidean \(SU(n)\)-monopoles\, starting with the \(n=2\) case
-
- . We will see that these moduli spaces are described using spaces of ration
-
- al maps from the projective line to flag varieties.
-
-DTSTART;TZID=America/Toronto:20251009T143000
-
-DTEND;TZID=America/Toronto:20251009T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260527T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260527T140000
+DTEND;TZID=America/Toronto:20260527T153000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20251023T000000-SliceKnotsandKnotConcordance-workingseminar@romshoo.git
-
- hub.io
-
-SUMMARY:Alexander Cole Teeter — Slice Knots and Knot Concordance
-
-DESCRIPTION:Speaker: Alexander Cole Teeter\nTitle: Slice Knots and Knot Con
-
- cordance\n\nIn this talk\, we explore an overview of the interplay between 
-
- Knot Theory and Four Dimensional Topology. Specifically\, we look at both T
-
- opologically and Smoothly Slice Knots\, which are Knots in \(S^{3}\) that b
-
- ound (smoothly) embedded disks in \(B^{4}\). We explore some of the techniq
-
- ues in the proof that the conway knot is not smoothly slice\,and look at so
-
- me of the ideas involved the construction of exotic \(\mathbb{R}^{4}\)s usi
-
- ng such knots.
-
-DTSTART;TZID=America/Toronto:20251023T143000
-
-DTEND;TZID=America/Toronto:20251023T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260527T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260527T153000
+DTEND;TZID=America/Toronto:20260527T170000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20251030T000000-StabilityandLyapunovFunctions-workingseminar@romshoo.gi
-
- thub.io
-
-SUMMARY:Amanda Petcu — Stability and Lyapunov Functions
-
-DESCRIPTION:Speaker: Amanda Petcu\nTitle: Stability and Lyapunov Functions\
-
- n\nWhen working with a nonlinear system of differential equations\, finding
-
-  explicit\, closed-form solutions can be difficult. A tool in such situatio
-
- ns is to determine the stability of the equilibrium points of the system. T
-
- his analysis allows us to predict the long-term behavior of the system by e
-
- xamining its trajectories and how they behave near an equilibrium point: sp
-
- ecifically\, do they remain bounded in some compact set\, converge to the p
-
- oint\, or escape to infinity? In this talk\, we will discuss Lyapunov's Dir
-
- ect Method\, a technique that allows us to determine the stability of an eq
-
- uilibrium point without explicitly solving the differential equations.
-
-DTSTART;TZID=America/Toronto:20251030T143000
-
-DTEND;TZID=America/Toronto:20251030T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260603T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260603T140000
+DTEND;TZID=America/Toronto:20260603T153000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20251113T000000-Modulispacesofmonopolespart2-workingseminar@romshoo.git
-
- hub.io
-
-SUMMARY:Paul Cusson — Moduli spaces of monopoles part 2
-
-DESCRIPTION:Speaker: Paul Cusson\nTitle: Moduli spaces of monopoles part 2\
-
- n\nWe continue discussing Euclidean \(SU(n)\)-monopoles\, now in the case \
-
- (n \geq 3\)\, and we aim to describe their moduli spaces using spaces of ra
-
- tional maps from the projective line to flag varieties.
-
-DTSTART;TZID=America/Toronto:20251113T143000
-
-DTEND;TZID=America/Toronto:20251113T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260603T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260603T153000
+DTEND;TZID=America/Toronto:20260603T170000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20251120T000000-DimensionalReductionofS1InvariantInstantonsontheMultiTa
-
- ubNUT-workingseminar@romshoo.github.io
-
-SUMMARY:Facundo Camano — Dimensional Reduction of \(S^1\)-Invariant Instant
-
- ons on the Multi-Taub-NUT
-
-DESCRIPTION:Speaker: Facundo Camano\nTitle: Dimensional Reduction of \(S^1\
-
- )-Invariant Instantons on the Multi-Taub-NUT\n\nIn this talk I will discuss
-
-  the dimensional reduction of \(S^1\)-invariant instantons on the multi-Tau
-
- b-NUT space to singular monopolos on \(\mathbb{R}^3\). I will first introdu
-
- ce the multi-Taub-NUT space\, followed up by a discussion on \(S^1\)-equiva
-
- riant principal bundles. Next\, I will go over the natural decomposition of
-
-  \(S^1\)-invariant connections into horizontal and vertical pieces\, and th
-
- en show how the self-duality equation reduces to the Bogomolny equation und
-
- er said decomposition. I will then show how the smoothness of the instanton
-
-  over the NUT points determines the asymptotic conditions for the singular 
-
- monopole. Finally\, I will go over the reverse construction: starting with 
-
- a singular monopole on \(\mathbb{R}^3\) and building up to an \(S^1\)-invar
-
- iant instanton on the multi-Taub-NUT space.
-
-DTSTART;TZID=America/Toronto:20251120T143000
-
-DTEND;TZID=America/Toronto:20251120T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260610T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260610T140000
+DTEND;TZID=America/Toronto:20260610T153000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20251127T000000-Correspondencebetweenlogarithmicconnectionsandframedpar
-
- abolicbundlesontheblowupofanodalRiemannsurface-workingseminar@romshoo.githu
-
- b.io
-
-SUMMARY:Kaleb Ruscitti — Correspondence between logarithmic connections and
-
-  framed parabolic bundles on the blow up of a nodal Riemann surface
-
-DESCRIPTION:Speaker: Kaleb Ruscitti\nTitle: Correspondence between logarith
-
- mic connections and framed parabolic bundles on the blow up of a nodal Riem
-
- ann surface\n\nIn this seminar I will explain how a Mehta-Seshadri type cor
-
- respondence between logarithmic connections and parabolic vector bundles wo
-
- rks for a specific setting of interest. That is the blow up of the complex 
-
- curve \(xy=t\) at the nodal point
-
-DTSTART;TZID=America/Toronto:20251127T143000
-
-DTEND;TZID=America/Toronto:20251127T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260610T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260610T153000
+DTEND;TZID=America/Toronto:20260610T170000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20251204T000000-SchwarzLemmaforSmithmaps-workingseminar@romshoo.github.
-
- io
-
-SUMMARY:Spiro Karigiannis — Schwarz Lemma for Smith maps
-
-DESCRIPTION:Speaker: Spiro Karigiannis\nTitle: Schwarz Lemma for Smith maps
-
- \n\nI will discuss a generalized Schwarz Lemma for Smith maps\, proved rece
-
- ntly by Broder-Iliashenko-Madnick\, and explain how it generalizes the clas
-
- sical Schwarz Lemma from complex analysis.
-
-DTSTART;TZID=America/Toronto:20251204T143000
-
-DTEND;TZID=America/Toronto:20251204T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260617T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260617T140000
+DTEND;TZID=America/Toronto:20260617T153000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20251211T000000-RiemannianGeometryofKnotSpaces-workingseminar@romshoo.g
-
- ithub.io
-
-SUMMARY:Alex Pawelko — Riemannian Geometry of Knot Spaces
-
-DESCRIPTION:Speaker: Alex Pawelko\nTitle: Riemannian Geometry of Knot Space
-
- s\n\nWe will review the construction of knot spaces of manifolds\, specific
-
- ally over \(G_2\) and \(\text{Spin}(7)\) manifolds. We will then see an exp
-
- licit construction of the Levi-Civita connection of the knot space\, and se
-
- e what this can tell us about the torsion of the induced special geometric 
-
- structures on knot spaces of \(G_2\) and \(\text{Spin}(7)\) manifolds.
-
-DTSTART;TZID=America/Toronto:20251211T143000
-
-DTEND;TZID=America/Toronto:20251211T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260617T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260617T153000
+DTEND;TZID=America/Toronto:20260617T170000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20260122T000000-ProperGroupActionsandtheSliceTheoreminFiniteDimensions-
-
- workingseminar@romshoo.github.io
-
-SUMMARY:Spencer Kelly — Proper Group Actions and the Slice Theorem in Finit
-
- e Dimensions
-
-DESCRIPTION:Speaker: Spencer Kelly\nTitle: Proper Group Actions and the Sli
-
- ce Theorem in Finite Dimensions\n\nIn this talk we will begin by reviewing 
-
- important properties of group actions on manifolds\, and characteristics of
-
-  proper actions. We then define isotropy and orbit types\, discuss the slic
-
- e theorem (on finite dimensional manifolds)\, and go over non-trivial examp
-
- les of slice bundles. This will set us up to conclude with the principal or
-
- bit theorem and the stratification of the orbit space.
-
-DTSTART;TZID=America/Toronto:20260122T143000
-
-DTEND;TZID=America/Toronto:20260122T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260624T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260624T140000
+DTEND;TZID=America/Toronto:20260624T153000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20260129T000000-DiracOperatorsonOrbifoldResolutions-workingseminar@roms
-
- hoo.github.io
-
-SUMMARY:Viktor Majewski — Dirac Operators on Orbifold Resolutions
-
-DESCRIPTION:Speaker: Viktor Majewski\nTitle: Dirac Operators on Orbifold Re
-
- solutions\n\nIn this talk we discuss Dirac operators along degenerating fam
-
- ilies of Riemannian manifolds that converge\, in the Gromov-Hausdorff sense
-
- \, to a Riemannian orbifold. Such degenerations arise naturally when analys
-
- ing the boundary of Teichmüller spaces of special Riemannian metrics as wel
-
- l as moduli spaces appearing in gauge theory and calibrated geometry. Here 
-
- sequences of smooth geometric structures on Riemannian manifolds may conver
-
- ge to an orbifold limit. To understand and control these degenerations\, we
-
-  introduce smooth Gromov-Hausdorff resolutions of orbifolds\, that are\, sm
-
- ooth families \((X_t\,g_t)\)\, which collapse to the orbifold \((X_0\,g_0)\
-
- ) as \(t\to 0\). The central analytic problem addressed in this paper is to
-
-  understand the behaviour of Dirac operators along such resolutions\, in pa
-
- rticular in collapsing regimes where classical elliptic estimates fail. We 
-
- develop a uniform Fredholm theory for the family of Dirac operators on the 
-
- Gromov-Hausdorff resolution. Using weighted function spaces\, adiabatic ana
-
- lysis\, and a decomposition of \(X_t\) into asymptotically conical fibred (
-
- ACF)\, conically fibred (CF) and conically fibred singular (CFS)\, we obtai
-
- n uniform realisations of the model operators and prove a linear gluing exa
-
- ct sequence relating global and local (co)kernels. As a consequence\, we co
-
- nstruct uniformly bounded right inverses for \(D_t\)\, and derive an index 
-
- additivity formula. The theory developed here provides the analytic foundat
-
- ion for nonlinear gluing problems in gauge theory and special holonomy geom
-
- etry\, including torsion-free \(G\)-structures\, instantons\, and calibrate
-
- d submanifolds of Riemannian manifolds close to an orbifold limit.
-
-DTSTART;TZID=America/Toronto:20260129T143000
-
-DTEND;TZID=America/Toronto:20260129T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260624T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260624T153000
+DTEND;TZID=America/Toronto:20260624T170000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20260212T000000-SpectralcurvesofEuclideanmathrmSUNmonopoles-workingsemi
-
- nar@romshoo.github.io
-
-SUMMARY:Paul Cusson — Spectral curves of Euclidean \(\mathrm{SU}(N)\)-monop
-
- oles
-
-DESCRIPTION:Speaker: Paul Cusson\nTitle: Spectral curves of Euclidean \(\ma
-
- thrm{SU}(N)\)-monopoles\n\nMonopoles over Euclidean \(\mathbb{R}^3\) with g
-
- auge group \(\mathrm{SU}(N)\)\, originally analytic objects\, can be studie
-
- d using the algebro-geometric properties of their spectral curves. We will 
-
- discuss known results about these curves and how they depend on the asympto
-
- tics of the monopole's Higgs field. We will then go over some elementary re
-
- sults that restrict the possible degrees of the spectral curves when we imp
-
- ose symmetries on these monopoles from finite subgroups of \(\mathrm{SO}(3)
-
- \)
-
-DTSTART;TZID=America/Toronto:20260212T143000
-
-DTEND;TZID=America/Toronto:20260212T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260701T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260701T140000
+DTEND;TZID=America/Toronto:20260701T153000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20260226T000000-Deformationsofcalibrations-workingseminar@romshoo.githu
-
- b.io
-
-SUMMARY:Faisal Romshoo — Deformations of calibrations
-
-DESCRIPTION:Speaker: Faisal Romshoo\nTitle: Deformations of calibrations\n\
-
- nWe will look at a criterion for unobstructedness for calibrations and see 
-
- when the corresponding moduli spaces form smooth manifolds\, following the 
-
- approach by Goto in https://arxiv.org/abs/math/0112197
-
-DTSTART;TZID=America/Toronto:20260226T143000
-
-DTEND;TZID=America/Toronto:20260226T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260701T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260701T153000
+DTEND;TZID=America/Toronto:20260701T170000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20260305T000000-ModuliSpaceDegenerationviaMonopoleDeformation-workingse
-
- minar@romshoo.github.io
-
-SUMMARY:Facundo Camano — Moduli Space Degeneration via Monopole Deformation
-
-DESCRIPTION:Speaker: Facundo Camano\nTitle: Moduli Space Degeneration via M
-
- onopole Deformation\n\nIn this talk\, I will discuss the theory behind the 
-
- deformation of monopoles. I will then apply the theory to show monopole mod
-
- uli spaces degenerate as a singularity is sent off towards infinity.
-
-DTSTART;TZID=America/Toronto:20260305T143000
-
-DTEND;TZID=America/Toronto:20260305T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260708T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260708T140000
+DTEND;TZID=America/Toronto:20260708T153000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20260312T000000-Someresultsonhypersymplecticstructures-workingseminar@r
-
- omshoo.github.io
-
-SUMMARY:Amanda Petcu — Some results on hypersymplectic structures
-
-DESCRIPTION:Speaker: Amanda Petcu\nTitle: Some results on hypersymplectic s
-
- tructures\n\nA conjecture of Simon Donaldson is that on a compact \(4\)-man
-
- ifold \(X^4\) one can flow from a hypersymplectic structure to a hyperk\"ah
-
- ler structure while remaining in the same cohomology class. To this end the
-
-  hypersymplectic flow was introduced by Fine-Yao. In this thesis the notion
-
-  of a positive triple on \(X^4\) is used to define a hypersymplectic and hy
-
- perk\"ahler structure. Given a closed positive triple one can define either
-
-  a closed \(G_2\) structure or a coclosed \(G_2\) structure on \(\mathbb{T}
-
- ^3 \times X^4\). The coclosed \(G_2\) structure is evolved under the \(G_2\
-
- ) Laplacian coflow. This descends to a flow of the positive triple on \(X^4
-
- \)\, which is again the Fine-Yao hypersymplectic flow. In the second part o
-
- f this thesis we let \(X^4 = \mathbb{R}^4 \setminus \{0\}\) with a particul
-
- ar cohomogeneity one action. A hypersymplectic structure invariant under th
-
- is action is introduced. The Riemann and Ricci curvature tensors are comput
-
- ed and we verify in a particular case that this hypersymplectic structure c
-
- an be transformed to a hyperkahler structure. The notion of a soliton for t
-
- he hypersymplectic flow in this particular case is introduced and it is fou
-
- nd that steady solitons give rise to hypersymplectic structures that can be
-
-  transformed to hyperkahler structures. Some other soliton solutions are al
-
- so discussed.
-
-DTSTART;TZID=America/Toronto:20260312T143000
-
-DTEND;TZID=America/Toronto:20260312T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260708T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260708T153000
+DTEND;TZID=America/Toronto:20260708T170000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20260319T000000-FillingHolesinthemathrmSpin7TeichmllerSpaceandStringCoh
-
- omology-workingseminar@romshoo.github.io
-
-SUMMARY:Viktor Majewski — Filling Holes in the \(\mathrm{Spin}(7)\)-Teichmü
-
- ller Space and String Cohomology
-
-DESCRIPTION:Speaker: Viktor Majewski\nTitle: Filling Holes in the \(\mathrm
-
- {Spin}(7)\)-Teichmüller Space and String Cohomology\n\nIn this talk\, I app
-
- ly the analytic results from the first talk to study the boundary of the \(
-
- \mathrm{Spin}(7)\) Teichmüller space. Using compactness results for Ricci-f
-
- lat metrics together with known examples of \(\mathrm{Spin}(7)\) manifolds\
-
- , it is known that \(\mathrm{Spin}(7)\) orbifolds with \(\mathrm{SU}(n)\) i
-
- sotropy arise as boundary points of the moduli space. Building on the resol
-
- ution scheme for \(\mathrm{Spin}(7)\) orbifolds that I discussed in 2024\, 
-
- and which I will briefly review\, we show how this boundary can be removed 
-
- by requiring \(\mathrm{Spin}(7)\) orbifolds to encode information about the
-
- ir resolutions. In this way\, the Teichmüller space is enlarged to include 
-
- orbifold limits together with their compatible resolutions\, thereby fillin
-
- g in the boundary. Finally\, we explain how this perspective is related to 
-
- a \(\mathrm{Spin}(7)\) analogue of the crepant resolution conjecture from s
-
- tring cohomology\, providing a geometric interpretation of the obstruction 
-
- complex discussed in the linear gluing analysis in the first talk.
-
-DTSTART;TZID=America/Toronto:20260319T143000
-
-DTEND;TZID=America/Toronto:20260319T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260715T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260715T140000
+DTEND;TZID=America/Toronto:20260715T153000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20260326T000000-ConstructingaSliceTheoreminInfiniteDimensions-workingse
-
- minar@romshoo.github.io
-
-SUMMARY:Spencer Kelly — Constructing a Slice Theorem in Infinite Dimensions
-
-DESCRIPTION:Speaker: Spencer Kelly\nTitle: Constructing a Slice Theorem in 
-
- Infinite Dimensions\n\nThe slice theorem is a powerful tool for understandi
-
- ng proper group actions on manifolds\; however it does not hold on infinite
-
-  dimensional manifolds\, nor does there exist a general infinite dimensiona
-
- l extension of it. However\, on specific infinite dimensional manifolds\, w
-
- orking on a case-by-case basis\, we have been able to construct analogues o
-
- f the slice theorem. In this talk\, we will investigate one of these cases\
-
- , namely the space of connections on a bundle over a compact Riemannian man
-
- ifold\, acted on by the gauge group.
-
-DTSTART;TZID=America/Toronto:20260326T143000
-
-DTEND;TZID=America/Toronto:20260326T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260715T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260715T153000
+DTEND;TZID=America/Toronto:20260715T170000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20260402T000000-DeformationsofcalibrationsII-workingseminar@romshoo.git
-
- hub.io
-
-SUMMARY:Faisal Romshoo — Deformations of calibrations\, II
-
-DESCRIPTION:Speaker: Faisal Romshoo\nTitle: Deformations of calibrations\, 
-
- II\n\nWe will continue where we left off last time\, completing the proof o
-
- f when the obstructions for the calibrations vanish. If time permits\, we w
-
- ill go through the proof of the fact that if an orbit is metrical\, ellipti
-
- c and topological\, then the corresponding moduli space is a smooth manifol
-
- d. 
-
-DTSTART;TZID=America/Toronto:20260402T143000
-
-DTEND;TZID=America/Toronto:20260402T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260722T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260722T140000
+DTEND;TZID=America/Toronto:20260722T153000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20260416T000000-MorseTheoryviaHarmonicOscillators-workingseminar@romsho
-
- o.github.io
-
-SUMMARY:Alex Pawelko — Morse Theory via Harmonic Oscillators
-
-DESCRIPTION:Speaker: Alex Pawelko\nTitle: Morse Theory via Harmonic Oscilla
-
- tors\n\nWe will discuss the approach to Morse Theory originally due to Witt
-
- en\, where one constructs deformed Laplace operators whose low-energy eigen
-
- vectors concentrate near the critical points of one's Morse function\, and 
-
- then uses Hodge theory to relate this to de Rham cohomology.
-
-DTSTART;TZID=America/Toronto:20260416T143000
-
-DTEND;TZID=America/Toronto:20260416T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260722T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260722T153000
+DTEND;TZID=America/Toronto:20260722T170000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20260423T000000-TBD-workingseminar@romshoo.github.io
-
-SUMMARY:Paul Cusson — Monopoles with rotational symmetry
-
-DESCRIPTION:Speaker: Paul Cusson\nTitle: TBD\n\nTBD
-
-DTSTART;TZID=America/Toronto:20260423T143000
-
-DTEND;TZID=America/Toronto:20260423T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260729T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260729T140000
+DTEND;TZID=America/Toronto:20260729T153000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
 BEGIN:VEVENT
-
-DTSTAMP:20260411T220037Z
-
-UID:20260430T000000-TBD-workingseminar@romshoo.github.io
-
-SUMMARY:Facundo Camano — TBD
-
-DESCRIPTION:Speaker: Facundo Camano\nTitle: TBD\n\nTBD
-
-DTSTART;TZID=America/Toronto:20260430T143000
-
-DTEND;TZID=America/Toronto:20260430T160000
-
+DTSTAMP:20260427T000000Z
+UID:20260729T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260729T153000
+DTEND;TZID=America/Toronto:20260729T170000
 LOCATION:MC 5403
-
-URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Webs
-
- ite/workingseminar_home.html
-
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
 END:VEVENT
-
+BEGIN:VEVENT
+DTSTAMP:20260427T000000Z
+UID:20260805T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260805T140000
+DTEND;TZID=America/Toronto:20260805T153000
+LOCATION:MC 5403
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260427T000000Z
+UID:20260805T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260805T153000
+DTEND;TZID=America/Toronto:20260805T170000
+LOCATION:MC 5403
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260427T000000Z
+UID:20260812T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260812T140000
+DTEND;TZID=America/Toronto:20260812T153000
+LOCATION:MC 5403
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260427T000000Z
+UID:20260812T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260812T153000
+DTEND;TZID=America/Toronto:20260812T170000
+LOCATION:MC 5403
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260427T000000Z
+UID:20260819T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260819T140000
+DTEND;TZID=America/Toronto:20260819T153000
+LOCATION:MC 5403
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260427T000000Z
+UID:20260819T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260819T153000
+DTEND;TZID=America/Toronto:20260819T170000
+LOCATION:MC 5403
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260427T000000Z
+UID:20260826T140000-Talk1-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260826T140000
+DTEND;TZID=America/Toronto:20260826T153000
+LOCATION:MC 5403
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260427T000000Z
+UID:20260826T153000-Talk2-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTART;TZID=America/Toronto:20260826T153000
+DTEND;TZID=America/Toronto:20260826T170000
+LOCATION:MC 5403
+URL;VALUE=URI:https://www.math.uwaterloo.ca/~fromshoo/assets/html/DG%20Website/workingseminar_home.html
+END:VEVENT
 END:VCALENDAR
-
