@@ -22,82 +22,123 @@ DTSTART:19700308T020000
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20260427T000000Z
-UID:20260506T140000-Talk1-workingseminar@romshoo.github.io
-SUMMARY:Summer 2026 — Talk 1
-DESCRIPTION:Speaker: Facundo Camano \nTitle: \n\n
+DTSTAMP:20260506T000000Z
+UID:20260506T140000-SpiroKarigiannis-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Organizational Meeting
+DESCRIPTION:Speaker: Spiro Karigiannis\nTitle: Organizational Meeting\n\nWe will plan the speakers for the rest of the semester.
 DTSTART;TZID=America/Toronto:20260506T140000
-DTEND;TZID=America/Toronto:20260506T153000
-LOCATION:MC 5403
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260427T000000Z
-UID:20260506T153000-Talk2-workingseminar@romshoo.github.io
-SUMMARY:Summer 2026 — Talk 2
-DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
-DTSTART;TZID=America/Toronto:20260506T153000
 DTEND;TZID=America/Toronto:20260506T170000
-LOCATION:MC 5403
+LOCATION:MC 5417
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260427T000000Z
-UID:20260513T140000-Talk1-workingseminar@romshoo.github.io
-SUMMARY:Summer 2026 — Talk 1
-DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DTSTAMP:20260506T000000Z
+UID:20260513T140000-SpiroKarigiannis-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Decomposition of the Riemann Curvature Tensor
+DESCRIPTION:Speaker: Spiro Karigiannis\nTitle: Decomposition of the Riemann Curvature Tensor\n\nThe Riemann curvature tensor \(R\) of a Riemannian metric decomposes into three orthogonal components: the scalar curvature, the traceless Ricci curvature tensor, and the Weyl curvature tensor. I will explain in detail the representation theory and linear algebra underlying this decomposition. Moreover, we will see that in the special cases of dimensions \(2, 3, 4\) one can say more. As an application, I will discuss the Singer-Thorpe Theorem characterizing Einstein metrics in \(4\) dimensions in terms of this decomposition. If time permits (and it may well permit, as this will be a 2.5 hour talk with a break midway), I will briefly discuss a generalization of these ideas to \(mathrm{G}_2\)-geometry in \(7\) dimensions.
 DTSTART;TZID=America/Toronto:20260513T140000
-DTEND;TZID=America/Toronto:20260513T153000
-LOCATION:MC 5403
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260427T000000Z
-UID:20260513T153000-Talk2-workingseminar@romshoo.github.io
-SUMMARY:Summer 2026 — Talk 2
-DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
-DTSTART;TZID=America/Toronto:20260513T153000
 DTEND;TZID=America/Toronto:20260513T170000
-LOCATION:MC 5403
+LOCATION:MC 5417
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260427T000000Z
-UID:20260520T140000-Talk1-workingseminar@romshoo.github.io
+DTSTAMP:20260506T000000Z
+UID:20260520T140000-FacundoCamano-workingseminar@romshoo.github.io
 SUMMARY:Summer 2026 — Talk 1
-DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DESCRIPTION:Speaker: Facundo Camano\nTitle: TBD\n\nTBD
 DTSTART;TZID=America/Toronto:20260520T140000
 DTEND;TZID=America/Toronto:20260520T153000
-LOCATION:MC 5403
+LOCATION:MC 5417
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260427T000000Z
-UID:20260520T153000-Talk2-workingseminar@romshoo.github.io
+DTSTAMP:20260506T000000Z
+UID:20260520T153000-BenoitCharbonneau-workingseminar@romshoo.github.io
 SUMMARY:Summer 2026 — Talk 2
-DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DESCRIPTION:Speaker: Benoit Charbonneau\nTitle: TBD\n\nTBD
 DTSTART;TZID=America/Toronto:20260520T153000
 DTEND;TZID=America/Toronto:20260520T170000
-LOCATION:MC 5403
+LOCATION:MC 5417
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260427T000000Z
-UID:20260527T140000-Talk1-workingseminar@romshoo.github.io
+DTSTAMP:20260506T000000Z
+UID:20260527T140000-SpencerKelly-workingseminar@romshoo.github.io
 SUMMARY:Summer 2026 — Talk 1
-DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DESCRIPTION:Speaker: Spencer Kelly\nTitle: TBD\n\nTBD
 DTSTART;TZID=America/Toronto:20260527T140000
 DTEND;TZID=America/Toronto:20260527T153000
-LOCATION:MC 5403
+LOCATION:MC 5417
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260427T000000Z
-UID:20260527T153000-Talk2-workingseminar@romshoo.github.io
+DTSTAMP:20260506T000000Z
+UID:20260527T153000-ViktorMajewski-workingseminar@romshoo.github.io
 SUMMARY:Summer 2026 — Talk 2
-DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DESCRIPTION:Speaker: Viktor Majewski\nTitle: TBD\n\nTBD
 DTSTART;TZID=America/Toronto:20260527T153000
 DTEND;TZID=America/Toronto:20260527T170000
-LOCATION:MC 5403
+LOCATION:MC 5417
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260427T000000Z
-UID:20260603T140000-Talk1-workingseminar@romshoo.github.io
+DTSTAMP:20260506T000000Z
+UID:20260603T140000-AlexPawelko-workingseminar@romshoo.github.io
 SUMMARY:Summer 2026 — Talk 1
-DESCRIPTION:Speaker: TBA\nTitle: TBA\n\n
+DESCRIPTION:Speaker: Alex Pawelko\nTitle: TBD\n\nTBD
+DTSTART;TZID=America/Toronto:20260603T140000
+DTEND;TZID=America/Toronto:20260603T153000
+LOCATION:MC 4058
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260506T000000Z
+UID:20260603T153000-JacquesVanWyk-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: Jacques Van Wyk\nTitle: TBD\n\nTBD
+DTSTART;TZID=America/Toronto:20260603T153000
+DTEND;TZID=America/Toronto:20260603T170000
+LOCATION:MC 4058
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260506T000000Z
+UID:20260610T140000-FaisalRomshoo-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — TBD
+DESCRIPTION:Speaker: Faisal Romshoo\nTitle: TBD\n\nTBD
+DTSTART;TZID=America/Toronto:20260610T140000
+DTEND;TZID=America/Toronto:20260610T170000
+LOCATION:MC 4058
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260506T000000Z
+UID:20260617T140000-FacundoCamano-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: Facundo Camano\nTitle: TBD\n\nTBD
+DTSTART;TZID=America/Toronto:20260617T140000
+DTEND;TZID=America/Toronto:20260617T153000
+LOCATION:MC 4058
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260506T000000Z
+UID:20260617T153000-BenoitCharbonneau-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: Benoit Charbonneau\nTitle: TBD\n\nTBD
+DTSTART;TZID=America/Toronto:20260617T153000
+DTEND;TZID=America/Toronto:20260617T170000
+LOCATION:MC 4058
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260506T000000Z
+UID:20260624T140000-SpencerKelly-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 1
+DESCRIPTION:Speaker: Spencer Kelly\nTitle: TBD\n\nTBD
+DTSTART;TZID=America/Toronto:20260624T140000
+DTEND;TZID=America/Toronto:20260624T153000
+LOCATION:MC 4058
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260506T000000Z
+UID:20260624T153000-KalebRuscitti-workingseminar@romshoo.github.io
+SUMMARY:Summer 2026 — Talk 2
+DESCRIPTION:Speaker: Kaleb Ruscitti\nTitle: TBD\n\nTBD
+DTSTART;TZID=America/Toronto:20260624T153000
+DTEND;TZID=America/Toronto:20260624T170000
+LOCATION:MC 4058
+END:VEVENT
+END:VCALENDAR
 DTSTART;TZID=America/Toronto:20260603T140000
 DTEND;TZID=America/Toronto:20260603T153000
 LOCATION:MC 5403
