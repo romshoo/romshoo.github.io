@@ -23,7 +23,7 @@ social: false # includes social icons at the bottom of the page
 
 I am currently a PhD student at the [University of Waterloo](https://uwaterloo.ca/) under the supervision of [Spiro Karigiannis](https://www.math.uwaterloo.ca/~karigian/). Before this, I got my Bachelor of Mathematics and Master of Mathematics in Pure Mathematics from the University of Waterloo in 2023 and 2024 respectively.     
 
-My research interests lie in differential geometry and geometric analysis and I am especially interested in manifolds with special holonomy. I routinely talk in the [Differential Geometry Working Seminar](/~fromshoo/dg-working-seminar/).
+My research interests lie in differential geometry and geometric analysis and I am especially interested in manifolds with special holonomy. I routinely talk in the [Differential Geometry Working Seminar](/~fromshoo/dgworkingseminar/).
 
 My most recent CV is available [here](assets/pdf/CV_28Feb26.pdf) (updated 28 Februrary 2026).
 
