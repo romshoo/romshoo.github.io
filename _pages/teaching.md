@@ -7,9 +7,21 @@ nav: true
 nav_order: 3
 ---
 
+Here are the courses I have taught at the University of Waterloo:
+
+<h4>  Fall 2026  </h4>
+<ul>
+    <li> MATH 137 (Calculus 1) </li>
+</ul>
+<br>
 Here is the list of the courses I have TA'd for at the University of Waterloo (I was an undergraduate marker for the courses prior to Fall 2023): 
 
-
+<h4> Spring 2026: </h4> 
+<ul>
+    <li> MATH 137 (online) </li>
+    <li> MATH 636 (Linear Algebra for Teachers) </li>
+    <li> MATH 640 (Number Theory for Teachers)</li>
+</ul>
 <h4> Winter 2026: </h4> 
 <ul>
     <li> PMATH 365 </li>
