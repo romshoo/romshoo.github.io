@@ -70,79 +70,78 @@ nav_order: 5
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Sep 22, 2026</div>
-  <div><strong>Speaker:</strong> TBA</div>
+  <div><strong>Speaker:</strong> Viktor Majewski</div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Sep 29, 2026</div>
-  <div><strong>Speaker:</strong> TBA</div>
+  <div><strong>Speaker:</strong> Facundo Camano</div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Oct 6, 2026</div>
-  <div><strong>Speaker:</strong> TBA</div>
+  <div><strong>Speaker:</strong> Paul Cusson</div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Oct 13, 2026</div>
-  <div><strong>Speaker:</strong> TBA</div>
-  <div><strong>Title:</strong> TBA</div>
-  <div><strong>Abstract:</strong> TBA</div>
+  <div><strong>Reading week</strong> </div>
+  
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Oct 20, 2026</div>
-  <div><strong>Speaker:</strong> TBA</div>
+  <div><strong>Speaker:</strong> Spencer Kelly</div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Oct 27, 2026</div>
-  <div><strong>Speaker:</strong> TBA</div>
+  <div><strong>Speaker:</strong> Faisal Romshoo </div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Nov 3, 2026</div>
-  <div><strong>Speaker:</strong> TBA</div>
+  <div><strong>Speaker:</strong> Benoit Charbonneau</div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Nov 10, 2026</div>
-  <div><strong>Speaker:</strong> TBA</div>
+  <div><strong>Speaker:</strong> Francisco Villacis</div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Nov 17, 2026</div>
-  <div><strong>Speaker:</strong> TBA</div>
+  <div><strong>Speaker:</strong> Jacques Van Wyk </div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Nov 24, 2026</div>
-  <div><strong>Speaker:</strong> TBA</div>
+  <div><strong>Speaker:</strong> Faisal Romshoo </div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Dec 1, 2026</div>
-  <div><strong>Speaker:</strong> TBA</div>
+  <div><strong>Speaker:</strong> Danial Ghamari</div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Dec 8, 2026</div>
-  <div><strong>Speaker:</strong> TBA</div>
+  <div><strong>Speaker:</strong> Spencer Kelly</div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Dec 15, 2026</div>
-  <div><strong>Speaker:</strong> TBA</div>
+  <div><strong>Speaker:</strong> Danial Ghamari</div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
