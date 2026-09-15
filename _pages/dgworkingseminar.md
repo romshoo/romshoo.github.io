@@ -71,8 +71,8 @@ nav_order: 5
 <div class="dgws-entry">
   <div class="dgws-entry-date">Sep 22, 2026</div>
   <div><strong>Speaker:</strong> Viktor Majewski</div>
-  <div><strong>Title:</strong> TBA</div>
-  <div><strong>Abstract:</strong> TBA</div>
+  <div><strong>Title:</strong> Non-Existence of Smooth Full-Holonomy Cayley Fibrations </div>
+  <div><strong>Abstract:</strong> In this talk, I complete the proof that every Cayley fibration of a compact torsion-free \(\textrm{Spin(7)}\)-manifold with full holonomy must have singular fibers. This confirms a long-standing expectation in the study of calibrated fibrations with exceptional holonomy. Last semester, I showed that using the rigidity of the \(\textrm{Spin(7)}\)-structure to reduce any hypothetical nonsingular Cayley fibration to two possible topological configurations. This time, I exclude both by proving a new spinnability theorem for smooth fiber bundles over simply-connected \(4\)-manifolds with fiber homeomorphic to the elliptic surfaces \(E(2)\) or \(E(4)\). The \(E(4)\) case, which constitutes the main new difficulty, is established by combining families Seiberg–Witten theory with parametrized equivariant homotopy theory and equivariant \(K\)-theory.</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Sep 29, 2026</div>
