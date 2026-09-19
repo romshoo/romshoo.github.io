@@ -76,13 +76,13 @@ nav_order: 5
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Sep 29, 2026</div>
-  <div><strong>Speaker:</strong> Facundo Camano</div>
+  <div><strong>Speaker:</strong> Paul Cusson</div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Oct 6, 2026</div>
-  <div><strong>Speaker:</strong> Paul Cusson</div>
+  <div><strong>Speaker:</strong> Facundo Camano</div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
