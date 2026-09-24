@@ -77,8 +77,8 @@ nav_order: 5
 <div class="dgws-entry">
   <div class="dgws-entry-date">Sep 29, 2026</div>
   <div><strong>Speaker:</strong> Paul Cusson</div>
-  <div><strong>Title:</strong> TBA</div>
-  <div><strong>Abstract:</strong> TBA</div>
+  <div><strong>Title:</strong> Spectral data of \(\mathrm{SU}(2)\)-monopoles with symmetry group \(S^1\)</div>
+  <div><strong>Abstract:</strong> We will prove the existence and uniqueness of a Euclidean \(\mathrm{SU(2)}\)-monopole with a given charge, center, \(S^1\) symmetry group, and axis of symmetry. This will be proven using a theorem of Hitchin regarding the equivalence of \(\mathrm{SU(2)}\)-monopoles and the cohomological data obtained from spectral curves.</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Oct 6, 2026</div>
