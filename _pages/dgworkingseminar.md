@@ -83,8 +83,8 @@ nav_order: 5
 <div class="dgws-entry">
   <div class="dgws-entry-date">Oct 6, 2026</div>
   <div><strong>Speaker:</strong> Facundo Camano</div>
-  <div><strong>Title:</strong> TBA</div>
-  <div><strong>Abstract:</strong> TBA</div>
+  <div><strong>Title:</strong> \(\mathrm{SU}(2)\) is lying to us. </div>
+  <div><strong>Abstract:</strong>  We will compute the index of the deformation operator of a BPS monopole on \(\mathbb{R}^3\). During this computation, we will encounter how classical index results fall short in the presence of symmetry breaking. A hybridization of the \(b\)-calculus and scattering calculus will be the remedy to bypass the symmetry breaking and perform the computation.</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Oct 13, 2026</div>
