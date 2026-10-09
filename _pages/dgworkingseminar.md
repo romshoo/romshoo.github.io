@@ -93,19 +93,19 @@ nav_order: 5
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Oct 20, 2026</div>
-  <div><strong>Speaker:</strong> Spencer Kelly</div>
+  <div><strong>Speaker:</strong> Benoit Charbonneau</div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Oct 27, 2026</div>
-  <div><strong>Speaker:</strong> Faisal Romshoo </div>
+  <div><strong>Speaker:</strong> Spencer Kelly </div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Nov 3, 2026</div>
-  <div><strong>Speaker:</strong> Benoit Charbonneau</div>
+  <div><strong>Speaker:</strong> Faisal Romshoo</div>
   <div><strong>Title:</strong> TBA</div>
   <div><strong>Abstract:</strong> TBA</div>
 </div>
