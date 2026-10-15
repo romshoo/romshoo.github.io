@@ -94,8 +94,8 @@ nav_order: 5
 <div class="dgws-entry">
   <div class="dgws-entry-date">Oct 20, 2026</div>
   <div><strong>Speaker:</strong> Benoit Charbonneau</div>
-  <div><strong>Title:</strong> TBA</div>
-  <div><strong>Abstract:</strong> TBA</div>
+  <div><strong>Title:</strong> Spectrum deformation near infinity</div>
+  <div><strong>Abstract:</strong> My goal is to explain ideas I learned from Cherkis-Stern’s paper on the asymptotic structure of monopoles in \(\mathbb{R}^3\). </div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Oct 27, 2026</div>
