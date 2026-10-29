@@ -104,8 +104,8 @@ nav_order: 5
 <div class="dgws-entry">
   <div class="dgws-entry-date">Nov 3, 2026</div>
   <div><strong>Speaker:</strong> Faisal Romshoo</div>
-  <div><strong>Title:</strong> TBA</div>
-  <div><strong>Abstract:</strong> TBA</div>
+  <div><strong>Title:</strong>  Flows of positive triples </div>
+  <div><strong>Abstract:</strong> We will discuss positive triples on a \(4\)-manifold and the representation theory that arises from these structures. I will also aim to talk about the notion of an "isometric flow" of positive triples, which will be a negative gradient flow of a natural energy functional restricted to the "isometric class" of positive triples. </div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Nov 10, 2026</div>
