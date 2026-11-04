@@ -110,8 +110,21 @@ nav_order: 5
 <div class="dgws-entry">
   <div class="dgws-entry-date">Nov 10, 2026</div>
   <div><strong>Speaker:</strong> Francisco Villacis</div>
-  <div><strong>Title:</strong> TBA</div>
-  <div><strong>Abstract:</strong> TBA</div>
+  <div><strong>Title:</strong> Abelianization and Moment Maps </div>
+  <div><strong>Abstract: </strong> 
+  
+  <p> This is a thesis defence practice talk. </p>
+
+<p> The Abelian/non-Abelian correspondence relates certain symplectic or GIT quotients by non-Abelian groups to one by an Abelian group through an intermediate space. The resulting Abelianized space is toric and possesses a toric moment map with well-behaved properties, namely, its fibres over regular values are Lagrangian and its image is a convex polytope. 
+In this thesis, we investigate  the properties of the restriction to the intermediate space of the moment map, in the case of \(\textrm{Gr}(r,n)\). </p>
+
+<p> We prove that the intermediate space is a presymplectic manifold and its fibres over regular values of the restricted moment map are co-Lagrangian submanifolds. In particular, their tangent spaces project to Lagrangian subspaces of the Grassmannian. </p>
+
+<p> We show that the Grassmannian can be sliced into pieces whose images under the toric moment map are determined by finite collections of points coming from the combinatorics of the Grassmannian. To this end, we prove an algebraic result establishing that, for orthogonal projection matrices with equal corresponding principal minors, their ranges have the same image under the coordinatewise absolute-value map. Using this result, we prove that the moment map images associated with certain subvarieties of the Grassmannian are determined by a finite family of points, called circuit points. The support of these points correspond to circuits of representable matroids, and we construct a stratification of the Grassmannian based on the connectivity levels of these matroids. </p>
+
+<p> In the case of \(\textrm{Gr}(2,n)\), we explicitly describe the structure of both the fibres and image of the restricted toric moment map to the intermediate space. We show that the regular fibres are torus bundles over configuration spaces of closed polygonal paths in \(\mathbb{R}^2\), while the image of the intermediate space is given as a fibration over the \((n-1)\)-simplex. </p>
+
+</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Nov 17, 2026</div>
