@@ -133,10 +133,11 @@ In this thesis, we investigate  the properties of the restriction to the interme
   <div><strong>Abstract:</strong> For a closed three-form \(\gamma\) on a manifold \(M\), a \(\gamma\)-twisted generalised complex structure on \(M\) is a bundle automorphism \(J\) of \(TM \oplus T^*M\) which squares to \(-1\), is compatible with the natural pseudometric on \(TM \oplus T^*M\) of neutral signature, and whose \(i\)-eigenbundle is closed under the \(\gamma\)-twisted Dorfman bracket of \(M\). Given a complex manifold \(X\), a torus \(T\), a principal \(T\)-bundle $M \to X$ whose Chern class is of type \((1, 1)\), and a compact connected semisimple Lie group \(K\) whose dimension has the same parity as \(T\), I will show how to construct a \(\gamma\)-twisted generalised complex structure on \(M \times K\) for any closed three-form \(\gamma\) on \(K\).</div>
 </div>
 <div class="dgws-entry">
-  <div class="dgws-entry-date">Nov 24, 2026</div>
+  <div class="dgws-entry-date">Nov 26, 2026 (Thursday 3:30 pm-4:30 pm because of special G&T talk on Nov 24)</div>
   <div><strong>Speaker:</strong> Spencer Kelly </div>
-  <div><strong>Title:</strong> TBA</div>
-  <div><strong>Abstract:</strong> TBA</div>
+  <div><strong>Title:</strong> Weitzenböck formulas for Lie algebra bundle-valued \(2\)-forms.</div>
+  <div><strong>Abstract:</strong> In the first part of this talk we will derive a Weitzenböck formula for a \(2\)-form on a Riemannian manifold which takes values in the adjoint bundle. Then, in the case that such a \(2\)-form takes values in a \(1\)-dimensional subbundle of the adjoint bundle, we can use this Weitzenböck formula to derive necessary and sufficient conditions for such a \(2\)-form to be harmonic with respect to the generalized Hodge de Rham Laplacian.
+</div>
 </div>
 <div class="dgws-entry">
   <div class="dgws-entry-date">Dec 1, 2026</div>
